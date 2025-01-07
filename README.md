@@ -97,3 +97,19 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+## 환경 변수 설정
+
+프로젝트에서는 데이터베이스 연결을 위해 환경 변수를 사용합니다. 프로젝트 루트 디렉토리에 `.env` 파일을 생성하고 다음 내용을 추가하세요.
+
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=your_username
+DB_PASSWORD=your_password
+DB_DATABASE=your_database_name
+
+- `DB_HOST`: 데이터베이스 호스트 (일반적으로 `localhost`)
+- `DB_PORT`: 데이터베이스 포트 (기본값 `5432`)
+- `DB_USERNAME`: 데이터베이스 사용자 이름
+- `DB_PASSWORD`: 데이터베이스 비밀번호
+- `DB_DATABASE`: 연결할 데이터베이스 이름
